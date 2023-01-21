@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monika Priya Gainedi Frontend 1 Acciojob 21 Jan 2023</title>
+    <link rel="stylesheet" href ="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper left">
+            <label for="Input">Text Field<font color="red">*</font></label><br>
+            <input type="text" name="input" id="Input" placeholder="Input Text" required><br><br>
+            <label for="state">Select Field&#9432;</label><br>
+            <select name="states" id="state" aria-placeholder="Select">
+                <option value="none" selected disabled hidden>Select</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="TS">Telangana</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Odissa">Odissa</option>
+            </select><br><br>
+            <label for="textarea">Text Area&#9432;</label><br>
+            <textarea rows="5" cols="30" name="textarea" id="textarea" class="textArea"></textarea><br><br>
+            <label for="adds-on"></label>Text Field with Add-ons<font color="red">*</font><br>
+            <div class="addson">
+                <label>Label&nbsp;</label>
+                <input type="text" placeholder="Input Field">
+                <input type="button" value="Button">&nbsp;
+            </div>
+        </div>
+        <div class="wrapper right">
+            <div class="box">
+                <i class="fa fa-search" aria-hidden="true"></i>            
+                <input type="text" name="search" placeholder="Search..">            
+            </div>            
+                <input type="number" name="number"
+                       min = "0" max="100" step="1" value="30">
+        </div>
+    </div>
+</body>
+</html>
