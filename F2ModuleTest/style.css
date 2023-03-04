@@ -1,0 +1,63 @@
+.nav{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:5px;
+    margin-bottom:30px;
+    font-size: 25px;
+}
+header > div > .create{
+    background-color: black;
+    color:white;
+    border:1px solid #FFFFFF;
+    padding:2px 5px 2px 5px;
+}
+.modal{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px;
+}
+.post{
+    border: 1px solid white;
+    width:100%;
+    height:auto;
+    padding:15px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.heading{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.about{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.editbtn, .deletebtn{
+    background-color: black;
+    color:white;
+    margin-right:15px;
+    border: 1px solid white;
+}
